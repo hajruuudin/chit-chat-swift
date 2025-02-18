@@ -7,5 +7,7 @@ target 'chitchat' do
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
   pod 'Toast-Swift'
+  pod 'IQKeyboardManagerSwift'
+  pod 'CLTypingLabel'
 
 end

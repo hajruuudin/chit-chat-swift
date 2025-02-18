@@ -75,6 +75,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="KV5-5Q-4ON"/>
                     <connections>
+                        <outlet property="welcomeMessage" destination="xZY-fQ-T9Y" id="hsC-eg-kA6"/>
                         <segue destination="CDh-B2-MiC" kind="show" identifier="toRegisterScreen" id="HeY-YO-kw3"/>
                         <segue destination="b2A-JE-dYz" kind="show" identifier="toLoginScreen" id="OGZ-tN-oy1"/>
                     </connections>
@@ -248,6 +249,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="messageTextField" destination="tiJ-6s-V3L" id="f2n-8p-CtU"/>
+                        <outlet property="sendMessageButton" destination="TIR-87-tmg" id="MnN-PL-lOX"/>
                         <outlet property="tableView" destination="IkX-it-RMv" id="gFi-NM-sSz"/>
                     </connections>
                 </viewController>
